@@ -28,7 +28,7 @@ $('#third').click
 
   }
 )*/
-
+/*
 let a=0;
 
 $('#counter').append(
@@ -49,5 +49,17 @@ $('#button2').click
   {
     a--;
     $('#counter').text(a);
+  }
+);
+*/
+
+
+$('button').click
+(
+  () => 
+  {
+    $('body').append(
+      "<li></li>");
+    $("li").append("d");
   }
 );
