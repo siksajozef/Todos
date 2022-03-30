@@ -56,10 +56,16 @@ $('#button2').click
 
 $('button').click
 (
-  () => 
-  {
-    $('body').append(
-      "<li></li>");
-    $("li").append("d");
-  }
+() => 
+{
+  $('ul').append(
+    `<li>${$('input').val()}</li`);
+  $('input').val('');
+}
 );
+
+/*
+$('button').click(() => {
+  $('ul').append(`<li>${$('input').val()}</li>`);
+  $('input').val('');
+});*/
